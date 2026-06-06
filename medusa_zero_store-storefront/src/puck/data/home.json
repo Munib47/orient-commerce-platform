@@ -1,0 +1,104 @@
+{
+  "root": {
+    "props": {
+      "showNavigation": true,
+      "nav": {
+        "announcementText": "Free Shipping over Rs.22,400",
+        "logoText": "ORIENT",
+        "links": [
+          {
+            "label": "New In",
+            "href": "/store"
+          },
+          {
+            "label": "Women",
+            "href": "/store"
+          },
+          {
+            "label": "Men",
+            "href": "/store"
+          },
+          {
+            "label": "Sale",
+            "href": "/store"
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "textColor": "#000000"
+      },
+      "footer": {
+        "logoText": "ORIENT",
+        "columns": [
+          {
+            "title": "Shop",
+            "links": [
+              {
+                "label": "New In",
+                "href": "/store"
+              },
+              {
+                "label": "Women",
+                "href": "/store"
+              },
+              {
+                "label": "Men",
+                "href": "/store"
+              }
+            ]
+          },
+          {
+            "title": "Help",
+            "links": [
+              {
+                "label": "Shipping",
+                "href": "/"
+              },
+              {
+                "label": "Returns",
+                "href": "/"
+              },
+              {
+                "label": "Contact",
+                "href": "/"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Orient. All rights reserved.",
+        "backgroundColor": "#000000",
+        "textColor": "#ffffff"
+      }
+    }
+  },
+  "content": [
+    {
+      "type": "Hero",
+      "props": {
+        "id": "Hero-0001",
+        "align": "center",
+        "autoplay": true,
+        "textColor": "#ffffff",
+        "slides": [
+          {
+            "desktopImage": "/figma/home-hero.png",
+            "imageAlt": "Orient",
+            "ctaLabel": "shop now",
+            "ctaHref": "/store"
+          }
+        ]
+      }
+    },
+    {
+      "type": "FeaturedProductsGrid",
+      "props": {
+        "id": "FeaturedProductsGrid-0001",
+        "heading": "Featured",
+        "productLimit": 4,
+        "desktopColumns": 4,
+        "mobileColumns": 2,
+        "mobileSlider": true
+      }
+    }
+  ],
+  "zones": {}
+}
